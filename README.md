@@ -10,7 +10,7 @@ A `function` is something that is repeatable, with a specific purpose. The human
 
 **Code `functions`** are the same! They perform an action the same way, every time.
 
-You have been using `functions` to _command_ the code to do something:
+You have been using `functions` to _command_ JavaScript do things:
 ```JS
 console.log(`You area ${age} years old.`);  // The console's log() function
 let x = Math.round(value);                  // The round() function
