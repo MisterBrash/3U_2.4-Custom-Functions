@@ -34,7 +34,7 @@ console.log(typeof user_age);
 
 **Thankfully**, there is a function to attempt to convert to a number!
 ```JS
-user_age = Number(user_age);
+user_age = Number(user_age);  // Note that it starts with a capital "N". Why? It's complicated.
 
 console.log(typeof user_age);
 
@@ -44,6 +44,15 @@ console.log(typeof user_age);
 **Now you know two more `functions`!** And they can be combined:
 ```JS
 let length = Number(prompt("Please give a length in centimeters."));
+```
+
+**And of course there's a _shortcut_ for `Number()`**  
+JavaScript is _full_ of shortcuts. This one is called the "unary + operator":
+```JS
+let age = prompt("How old are you?");
+age = +age;   // This converts to a number and stores it back into age
+
+let year = +prompt("What year is it?");  // This does it all on one line
 ```
 
 ---
@@ -58,7 +67,7 @@ In programming, these are called "custom functions" and _sometimes_ "user-define
 
 ### The syntax is simple:
 ```JS
-function name() {
+function my_function_name() {
 
     // Code goes here
 
