@@ -12,7 +12,7 @@ A `function` is something that is repeatable, with a specific purpose. The human
 
 You have been using `functions` to _command_ JavaScript do things:
 ```JS
-console.log(`You area ${age} years old.`);  // The console's log() function
+console.log(`You are ${age} years old.`);  // The console's log() function
 let x = Math.round(value);                  // The round() function
 let rnd = Math.random();                    // The random() function
 ```
