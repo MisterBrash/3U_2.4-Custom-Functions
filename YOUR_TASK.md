@@ -17,7 +17,7 @@ Create the function `to_fahrenheit()` that asks the user for a temperature in _C
 
 Output the answer as follows substituting `{value}` for the correct numbers:
 ```TXT
-{value}° Fahrenheit is equal to {value}° Celsius
+{value}° Celsius is equal to {value}° Fahrenheit
 ```
 
 ---
@@ -28,7 +28,7 @@ Create the function `to_celsius()` that asks the user for a temperature in _Fahr
 
 Output the answer as follows substituting `{value}` for the correct numbers:
 ```TXT
-{value}° Celsius is equal to {value}° Fahrenheit
+{value}° Fahrenheit is equal to {value}° Celsius
 ```
 
 ---
