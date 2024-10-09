@@ -41,7 +41,7 @@ console.log(typeof user_age);
 'number'
 ```
 
-**Now you know two more `functions`!** They can even be combined:
+**Now you know two more `functions`!** And they can be combined:
 ```JS
 let length = Number(prompt("Please give a length in centimeters."));
 ```
@@ -85,7 +85,7 @@ say_hello();    // This "calls" our custom function, which prints "Hello!"
 Let's make an area of the circle function (this is in your [main.js](./main.js) file)
 ```JS
 function circle_area() {
-    let radius = Number(prompt("What is the radius for the circle?"));
+    let radius = Number(prompt("What is the radius of the circle?"));
     console.log(`The area is: ${Math.PI * radius**2}`);
 }
 ```
